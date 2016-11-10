@@ -4,9 +4,12 @@ Created on Wed Nov  9 17:07:07 2016
 
 @author: dfoley
 
-Helper programe to record and save any changes to the database
+Helper programme to record and save any changes to the database
 Taken from Miguel Grinberg
 
+
+it compares structure of database in app.db against the structure of our models in models.py
+the Differemce is recorded as a migration script.
 """
 
 
